@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo dia 2</title>
+    <style>
+        mark{
+            background-color: limegreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resumo dia 3</h1>
+    <h2>Links e âncoras</h2>
+    <ul>
+        <li> Use a Tag A para colocar links em palavras </li>
+        <li>Na parte href="coloque o link aqui"</li>
+        <li>(Opcional) se você quiser que o link abra em outra aba e não sobresaia no seu site <mark>NA FRENTE</mark> do link Use <mark>target="_blank" rel="external"<mark></li>
+    </ul>
+    <h2>Links internos</h2>
+    <li>rel = "prev" = voltar uma página
+    <li>rel = "next" = avançar
+    <p>Isso não muda nada é só significado</p>
+    <li>Para links internos (suas páginas do mesmo site) no href="pag.002.HTML"
+    <p>rel="nofollow" = Pedir para o navegador não dar bola (usado em anuncios)</p>
+    </ul>
+    <h2>Links para Dowload</h2>
+    <ol>
+        <li>Tag A</li>
+        <li>No href = "Local do arquivo" (usando ctrl espaço)</li>
+        <li>Use dowload="nome do arquivo"(opcional)</li>
+        <li>type = "application/pdf"</li>
+        <li>target = "_blank" para pdf</li>
+        <p>Na frente da seta > coloque o nome que aparecerá no site</p>
+    </ol>
+    <h2>Imagens dinamicas(pequena,média,grande)</h2>
+    <h3>Passo a passo como baixar uma imagem pequena grande e média</h3>
+    <ol>
+        <li>Vá em arquivo e nova</li>
+        <li>Vá em imagem e redimensionar e: pequena(300x300),Média(700x700),Grande(1000x1000)</li>
+        <li>Depois de redimensionar</li>
+    </ol>
+    <h2>Imagens que se adaptam</h2>
+    <h3>A Sequência deve ser <mark>OBEDECIDA</mark></h3>
+    <ol>
+        <li>Pequena</li>
+        <li>Média</li>
+        <li>Grande</li>
+        <li>Seu arquivo não pode conter acentos e simbolos só <mark>LETRASJUNTAS</mark></h3>
+    </ol>
+    <h3>Qual é o código para adptar?</h3>
+    <ol>
+        <li>Tag picture
+        <li>Digite dentro da tag source media e aperte Enter </li>
+        <li>Troque min-widht por max-widht</li>
+        <li>Na parte max-widht coloque o número de pixels (tamanho) com 50 px a mais</li>
+        <strong>Exemplo:</strong> <code>source media = "(max-widht:750 px)" srcset ="imagens/fotosp.png" type="imagem/png"></code>
+        <li>Dependendo do zoom do navegador a imagem pequena não seja para resolver ctrl shift -</li>
+    </ol>
+    <h3>Como colocar audio no site</h3>
+    <ol>
+        <li>SEGUINDO AS MESMAS REGRAS A SEREM OBEDECIDAS vamos lá!</li>
+        <li>Tag audio</li>
+        <li>Dentro de src coloque"a pasta(se tiver) e o diretório" controls autoplay</li>
+        <h2>OU</h2>
+        <li>Ex:
+        <pre>
+audio>  
+   source src = "diretório Ex: midia/audioteste.mp3" type="audio/mpeg"
+        </pre>
+        </li>
+        
+    </ol>
+</body>
+</html>

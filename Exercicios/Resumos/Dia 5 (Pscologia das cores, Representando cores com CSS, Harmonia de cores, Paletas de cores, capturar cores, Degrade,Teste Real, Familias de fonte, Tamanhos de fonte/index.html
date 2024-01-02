@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dia 5 Resumo</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dia 5</h1>
+    <h2>Psicologia das Cores</h2>
+    <ul>
+        <li>Azul e branco é bom pra tecnologia</li>
+        <li>Fundo preto e letra branca causa cansaço visual</li>
+        <li>Para os sentimentos das cores verifique a tabela no seu caderno</li>
+    </ul>
+    <h2>Representando Cores com CSS</h2>
+    <ul>
+        <h3>Representação por HSL</h3> 
+        <li>hsl(hue,sturation,luminosity) 
+        <li>Ex: hsl(240,100%,50%)</li>
+        <h3>Representação por código Hexadecimal</h3>
+        <li>Ex: #ffffff = white</li>
+        <h3>Método mais Útil</h3>
+        <li>Representação RGB (Red,Green,Blue)</li>
+        <li>Você pode escolher a cor e clicar no botão direito e arrastar até chegar na sua cor</li>
+        <li>Você pode ir no site coolors.co,Adobe color,palettons e copiar e colar o código da cor </li>
+    </ul>
+    <h2>Harmonia de Cores</h2>
+    <ul>
+        <li>Cores Primárias = Amarelo,Azul,Vermelho</li>
+        <li>Cores Segundarias = Laranja,Violeta,Verde</li>
+        <li>Cores Terciarias = Amarelo esverdeado,Amarelo alaranjado, Vermelho alaranjado, azul arroxeado</li><br>
+        <li>Cores Frias = Todos os verdes,Azul,Violeta.</li>
+        <li>Cores quentes = Roxo,amarelo alaranjado,laranja,vermelho</li><br>
+        <li>Paleta de 3 a 5 cores no MÁXIMO!</li><br>
+        <li>No site do cliente use a cor primária da logo dele (A cor que mais se destaca)</li><br>
+        <li>Contarste Grande = Use a cor oposta no circulo cromático</li>
+        <li>Contarste Médio = Pegue as as duas primeiras cores vizinhas no circulo cromático.</li>
+        <li>Contraste Médio relacionado = Escolha a sua cor principal e uma cor vizinha pule uma e pegue a cor pule uma e pegue a cor (pra direção da cor vizinha no circulo)</li>
+        <li>Cores intercaladas = Escolha sua cor principal Pule uma e Pegue a outra e assim vai Ex: Amarelo,Laranja,Vermelho (Mas a cor fica rigida(dura))</li><br>
+        <li>Cores triadicas = Pega uma pula três pega a outra pu...</li>
+        <li>Cores em Quadrado = Pega uma pula duas pega uma pu...</li>
+        <li>Cores Tetradicas = Pega duas cores que você quiser e escolha o oposto delas formando tipo um X sla</li><br>
+        <li>Monocromia = Mexer na luminosidade,contraste na cor causando efeito de degrade.</li>
+        </ul>
+        <h2>Paleta de cores (como escolher etc..)</h2>
+        <ul>
+            <li>Para pegar a paleta de imagens vá no adobe color clique em extrair tema e joga a imagem lá</li><br>
+            <h3>Está sem ideias?</h3>
+            <li>É só ir no adobe color e em explorar clique em exibir no cantinho e vá em mais usados</li>
+            <h3>Continua sem ideias?</h3>
+            <li>Use o site coolors.co clique em começar escolha a cor que gostar e trave com o simbolo de cadeado</li>
+            
+        </ul>
+        <h2>Como capturar cores de uma imagem?(Sites)</h2>
+        <ul>
+            <li>Paroes e clique na cor que deseja e ir copiar o código da cor automaticamente</li><br>
+            <li>DICA: Você pode copiar a cor que você quer no site vá no coolors e trave a cor e veja as que combinam com ela</li><br>
+            <li>Você pode tirar print da tela que você gostou da cor joga no Adobe Color e extrair tema e automaticamente você tem a paleta de cores da imagem que você escolheu</li>
+        </ul>
+        <h2>Como criar degrade em CSS</h2>
+        <ol>
+            <li>Debaixo do title use a tag style</li>
+            <li>Dentro da tag use body{}
+            </li>
+            <li>Dentro da tag body coloque background-image:linear-gradient(to right,white,blue)</li><br>
+            <li>to right = pra direita</li>
+            <li>to left = pra esquerda</li>
+            <li>to top = pra cima</li>
+            <li>to bottom = pra baixo (quase não funciona)</li><br>
+            <li>O <code>"white,Blue"</code> = De branco para Azul</li>
+        </ol>
+        <h2>Criando um exemplo Real</h2>
+        <ol>
+            <li>Crie um link para estilo CSS debaixo do title e vamos lá</li><br>
+            <ul>
+                <li>Use a regra @charset "UTF-8"; para não dar problema de acentuações
+                </li><br>
+
+                
+            </ul>
+                <li>main = diz que aquele é o conteudo principal</li><br>
+                <li>Configuração Global do site: *{}</li><br>
+                <li>Escolha um paleta</li>
+                <li>No main que é o seletor daquele texto dentro de <pre><code>
+main{
+    background-color: white (Vai formar um quadrado branco atrás do texto)
+    width: 600px (Largura)
+    padding: 10px (afastar a frase da borda do fundo do texto)
+    margin:auto; (centraliza a tela no meio)
+}</code></pre></li>
+        </ol><br>
+
+        <h2>Familias de fonte com CSS</h2>
+        <ol><li>No font-family é recomendado usar tipo:Arial,bla,bal tipo(testa nessa,se não der nessa,se não der de novo nessa agora)</li>
+            <li>Fontes serifadas são detalhes na ponta da letra</li>
+        </ol>
+        <h2>Tamanhos De fonte e suas mediadas</h2>
+        <h3>Medidas Absolutas</h3>
+        <ol>
+            <li>cm,mm,in,px,pt,pc</li>
+        </ol>
+        <h3>Medidas Relativas</h3>
+        <ul>
+            <li>em,ex,rem,vw,vh,%</li>
+        </ul>
+        <h3>Mais Usadas</h3>
+        <ul>
+            <li>px e em</li>
+            <li>16 px = 1 em</li>
+        
+        </ul>
+                
+
+
+
+
+    </ul>
+
+
+    
+</body>
+</html>
